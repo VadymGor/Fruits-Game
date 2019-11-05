@@ -48,10 +48,6 @@ $("#fruit1").mouseover(function(){
     // send new fruit
     setTimeout(startAction, 500);
 });
-// slice a fruit
-// play sound
-// explode fruit
-
 
 // FUNCTIONS
 
@@ -126,6 +122,5 @@ function stopAction() {
   clearInterval(action);
   $("#fruit1").hide();
 }
-
 
 });
